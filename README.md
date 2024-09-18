@@ -1,29 +1,45 @@
-# JongEon
+### Korean Population by Region
+* Total population: 51669716   
 
-# Git 명령어 리스트
+| Region | Population | Ratio (%) |
+| ------ | ---------- | --------- |
+| Seoul | 9550227 | 18.5 |
+| Gyeongi | 13530519 | 26.2 |      
+| Busan | 3359527 | 6.5 |
+| Gyeongnam | 3322373 | 6.4 |      
+| Incheon | 2938429 | 5.7 |        
+| Gyeongbuk | 2630254 | 5.1 |      
+| Daegu | 2393626 | 4.6 |
+| Chungnam | 2118183 | 4.1 |       
+| Jeonnam | 1838353 | 3.6 |        
+| Jeonbuk | 1792476 | 3.5 |        
+| Chungbuk | 1597179 | 3.1 |
+| Gangwon | 1536270 | 3.0 |
+| Daejeon | 1454679 | 2.8 |
+| Gwangju | 1441970 | 2.8 |
+| Ulsan | 1124459 | 2.2 |
+| Jeju | 675883 | 1.3 |
+| Sejong | 365309 | 0.7 |
 
-## 기본 명령어
-- `git init`: 새로운 Git 저장소 초기화
-- `git clone [url]`: 원격 저장소를 로컬에 복제
-- `git status`: 현재 저장소의 상태 확인
-- `git add [file]`: 파일을 스테이징 영역에 추가
-- `git commit -m "[메시지]"`: 스테이징 영역의 변경 사항을 커밋
-- `git log`: 커밋 기록 확인
+### Korean COVID-19 New Cases by Region
+* Total new cases: 1714
 
-## 브랜치 관련 명령어
-- `git branch`: 현재 브랜치 목록 확인
-- `git checkout [branch_name]`: 브랜치 전환
-- `git checkout -b [branch_name]`: 새로운 브랜치 생성 후 전환
-- `git merge [branch_name]`: 브랜치를 병합
-
-## 원격 저장소 관련 명령어
-- `git remote -v`: 원격 저장소 목록 확인
-- `git push origin [branch_name]`: 로컬 변경 사항을 원격 저장소에 푸시
-- `git pull`: 원격 저장소의 변경 사항을 가져와 병합
-- `git fetch`: 원격 저장소의 변경 사항을 가져오기 (병합은 하지 않음)
-
-## 기타 명령어
-- `git stash`: 현재 작업 중인 변경 사항을 임시로 저장
-- `git stash pop`: 임시 저장된 변경 사항을 다시 적용
-- `git reset --hard [commit_id]`: 특정 커밋으로 되돌리기
-
+| Region | New Cases | Ratio (%) | New Cases / 1M (%) |
+| ------ | --------- | --------- | ------------------ |
+| Seoul | 644 | 37.6 | 67.4 |
+| Gyeongi | 529 | 30.9 | 39.1 |
+| Busan | 38 | 2.2 | 11.3 |
+| Gyeongnam | 29 | 1.7 | 8.7 |
+| Incheon | 148 | 8.6 | 50.4 |
+| Gyeongbuk | 28 | 1.6 | 10.6 |
+| Daegu | 41 | 2.4 | 17.1 |
+| Chungnam | 62 | 3.6 | 29.3 |
+| Jeonnam | 23 | 1.3 | 12.5 |
+| Jeonbuk | 27 | 1.6 | 15.1 |
+| Chungbuk | 27 | 1.6 | 16.9 |
+| Gangwon | 33 | 1.9 | 21.5 |
+| Daejeon | 16 | 0.9 | 11.0 |
+| Gwangju | 40 | 2.3 | 27.7 |
+| Ulsan | 20 | 1.2 | 17.8 |
+| Jeju | 5 | 0.3 | 7.4 |
+| Sejong | 4 | 0.2 | 10.9 |
